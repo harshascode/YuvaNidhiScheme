@@ -221,6 +221,12 @@ const page = () => {
           scheme, applicants must ensure that their Aadhaar is linked to their
           bank account.
         </p>
+
+        <div className="italic underline underline-offset-1 text-blue-800 cursor-pointer font-semibold">
+          <a href="/how-to-apply-yuva-nidhi-scheme-karnataka" target="_blank">
+            step by step guide to-apply-yuva-nidhi-scheme-karnataka
+          </a>
+        </div>
       </div>
 
       <div className="flex-center relative min-h-[60px] mt-8 mb-8 w-full flex-col rounded-md bg-cover bg-center text-center bg-black">
@@ -240,7 +246,7 @@ const page = () => {
         </ul>
       </div>
 
-      <div className="flex-center relative min-h-[60px] w-full flex-col rounded-md bg-cover bg-center text-center bg-black">
+      <div className="flex-center relative min-h-[60px] mt-8 mb-8 w-full flex-col rounded-md bg-cover bg-center text-center bg-black">
         <h2 className="sm:heading1 heading2 text-center text-white mt-1 mb-1">
           How to Apply for the Yuva Nidhi Scheme Online
         </h2>
@@ -356,13 +362,14 @@ const page = () => {
         </p>
 
         <p className="mt-5 mb-2 font-semibold">ಯುವನಿಧಿಗೆ ವಯಸ್ಸಿನ ಮಿತಿ ಏನು?</p>
-        <p className="mb-10">
-        18 ರಿಂದ 35 ವರ್ಷದೊಳಗಿನವರಾಗಿರಬೇಕು.
-        </p>
+        <p className="mb-10">18 ರಿಂದ 35 ವರ್ಷದೊಳಗಿನವರಾಗಿರಬೇಕು.</p>
 
-        <p className="mt-5 mb-2 font-semibold">ಯುವ ನಿಧಿ ಯೋಜನೆ ಕರ್ನಾಟಕ ಪ್ರಯೋಜನಗಳು</p>
+        <p className="mt-5 mb-2 font-semibold">
+          ಯುವ ನಿಧಿ ಯೋಜನೆ ಕರ್ನಾಟಕ ಪ್ರಯೋಜನಗಳು
+        </p>
         <p className="mb-10">
-        ನಿರುದ್ಯೋಗಿ ಪದವೀಧರರಿಗೆ ತಿಂಗಳಿಗೆ 3,000 ರೂ., ನಿರುದ್ಯೋಗಿ ಡಿಪ್ಲೊಮಾ ಹೊಂದಿರುವವರಿಗೆ 1,500 ರೂ.
+          ನಿರುದ್ಯೋಗಿ ಪದವೀಧರರಿಗೆ ತಿಂಗಳಿಗೆ 3,000 ರೂ., ನಿರುದ್ಯೋಗಿ ಡಿಪ್ಲೊಮಾ
+          ಹೊಂದಿರುವವರಿಗೆ 1,500 ರೂ.
         </p>
       </div>
     </main>
