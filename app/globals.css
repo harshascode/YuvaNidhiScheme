@@ -82,11 +82,15 @@
   }
 
   .nav-padding {
-    @apply pt-[28px] sm:pt-[36px];
+    @apply pt-[28px] sm:pt-[26px];
   }
 
   .paddings {
     @apply sm:p-20 xs:p-4 px-2 py-6;
+  }
+
+  .paddings-sm {
+    @apply sm:p-10 xs:p-4 px-2 py-6;
   }
 
   .y-paddings {

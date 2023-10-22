@@ -7,9 +7,9 @@ const Navbar = () => {
       <div className="flex-between mx-auto w-full max-w-screen-2xl px-6 xs:px-8 sm:px-16">
         <Link href="/">
           <Image
-            src="/yuva-nidhi-schcme-logo.webp"
-            width={64}
-            height={57}
+            src="/yuva-nidhi-logo.svg"
+            width={75}
+            height={60}
             alt="YuvaNidhiScheme"
           />
         </Link>
@@ -32,13 +32,13 @@ const Navbar = () => {
 
         <ul className="flex-center gap-x-3 max-md:hidden md:gap-x-10">
           <li className="body-text text-gradient_blue-purple !font-bold">
-            <Link href="#" target="_blank">
-              Next.js 13.4 Course
+            <Link href="/" target="_blank">
+              Home
             </Link>
           </li>
           <li className="body-text !font-normal">
-            <Link href="#" target="_blank">
-              Masterclass
+            <Link href="https://sevasindhugs.karnataka.gov.in/" target="_blank">
+              SavaSindus
             </Link>
           </li>
         </ul>

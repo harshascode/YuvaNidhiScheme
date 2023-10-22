@@ -2,12 +2,14 @@ import Link from 'next/link'
 
 const Footer = () => {
   return (
-    <footer className="text-white-800 flex-between body-text w-full gap-y-10 border-t border-black-400 bg-black-100 px-20 py-12 max-md:flex-col">
-      <p>Copyright © 2023 JS Mastery Pro | All Rights Reserved</p>
+    <footer className="text-white-800 flex-between body-text w-full gap-y-10 border-t border-black-400 bg-black-100 px-20 py-10 max-md:flex-col">
+      <p>Copyright © 2023 Yuva Nidhi Scheme</p>
+      <p>This is not any government site we just provide content only for education purposes.</p>
 
       <div className="flex gap-x-9">
-        <Link href="/terms-of-use">Terms & Conditions</Link>
+        <Link href="/terms">Terms & Conditions</Link>
         <Link href="/privacy-policy">Privacy Policy</Link>
+        <Link href="/contact-us">Contact</Link>
       </div>
     </footer>
   )
