@@ -11,7 +11,7 @@ import { Link } from "lucide-react";
 
 const page = () => {
   return (
-    <main className="flex-center paddings sm:paddings-sm mx-auto w-full max-w-screen-2xl flex-col">
+    <main className="flex-center paddings sm:paddings-sm mx-auto w-full max-w-screen-xl flex-col">
       <section className="pt-[10px] sm:pt-[1px] w-full">
         <div className="flex-center relative min-h-[60px] w-full flex-col rounded-md bg-cover bg-center text-center bg-black">
           <h1 className="sm:heading1 heading2 text-center text-white mt-1 mb-1">
@@ -223,7 +223,7 @@ const page = () => {
         </p>
 
         <div className="italic underline underline-offset-1 text-blue-800 cursor-pointer font-semibold">
-          <a href="/how-to-apply-yuva-nidhi-scheme-karnataka" target="_blank">
+          <a href="/how-to-apply-yuva-nidhi-scheme-karnataka">
             step by step guide to-apply-yuva-nidhi-scheme-karnataka
           </a>
         </div>
@@ -252,10 +252,10 @@ const page = () => {
         </h2>
       </div>
 
-      <div className="mt-6 mb-6 p-2 bg-[#F5F7F8]">
+      <div className="mt-2 mb-6 p-2 bg-[#F5F7F8]">
         <p
           className="text-black paragraph-regular 
-       text-[18px] sm:text-xl leading-normal sm:leading-10 mt-7 mb-7"
+       text-[18px] sm:text-xl leading-normal sm:leading-10 mt-5 mb-5"
         >
           <strong>1. Eligibility Check: </strong> Educated but unemployed youth
           residing in Karnataka can access unemployment benefits by completing

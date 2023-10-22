@@ -9,9 +9,9 @@ const page = () => {
         [2023] How to apply Yuva Nidhi Scheme Karnataka
       </h1>
       
-      <div className="border border-black border-spacing-2">
+      <div className="">
       <Link href="/">
-          <Image
+          <Image className="border border-black border-spacing-2"
             src="/yuva-nidhi-scheme-image.webp"
             width={700}
             height={400}

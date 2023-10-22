@@ -41,6 +41,11 @@ const Navbar = () => {
               SavaSindus
             </Link>
           </li>
+          <li className="body-text !font-normal">
+            <Link href="/sitemap.xml">
+              Sitemap
+            </Link>
+          </li>
         </ul>
       </div>
     </nav>
