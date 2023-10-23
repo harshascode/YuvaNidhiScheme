@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import GoogleAnalytics from "@/components/GoogleAnalytics";
 
 export const metadata: Metadata = {
-  title: "Yuva Nidhi Scheme",
+  title: "ಯುವ ನಿಧಿ ಯೋಜನೆ ಕರ್ನಾಟಕ 2023 - Yuva Nidhi Scheme",
   description:
     "The Karnataka Yuva Nidhi Scheme is a promise of the Congress Party. Under this scheme, the government will provide financial aid to the educated, unemployed youth in the state.",
   viewport:
