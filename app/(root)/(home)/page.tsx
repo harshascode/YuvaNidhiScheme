@@ -76,7 +76,7 @@ const page = () => {
                 Starting Date
               </TableCell>
               <TableCell className="border border-black border-solid text-lg font-medium">
-                not started
+                26-Dec-2023
               </TableCell>
             </TableRow>
 
@@ -84,8 +84,14 @@ const page = () => {
               <TableCell className="border border-black border-solid text-lg font-medium">
                 Website
               </TableCell>
-              <TableCell className="border border-black border-solid text-lg font-medium text-blue-800 underline underline-offset-2">
-                SevaSindu portal
+              <TableCell className="border border-black border-solid text-lg font-medium text-blue-800 underline underline-offset-2 ">
+                <a
+                  href="https://sevasindhuservices.karnataka.gov.in/"
+                  target="_blank"
+                >
+                  SevaSindu portal
+                </a>
+                {/* SevaSindu portal */}
               </TableCell>
             </TableRow>
           </TableBody>
@@ -104,7 +110,10 @@ const page = () => {
 
       <div>
         <div className="m-10 place-items-center">
-          <a href="http:https://sevasindhugs.karnataka.gov.in/" target="_blank">
+          <a
+            href="https://sevasindhuservices.karnataka.gov.in/"
+            target="_blank"
+          >
             <img src="/clck-img.webp" alt="logo" width="300px" />
           </a>
         </div>
@@ -223,7 +232,7 @@ const page = () => {
         </p>
 
         <div className="italic underline underline-offset-1 text-blue-800 cursor-pointer font-semibold">
-          <a href="/how-to-apply-yuva-nidhi-scheme-karnataka">
+          <a href="/how-to-apply-yuva-nidhi-scheme-karnataka" target="_blank">
             step by step guide to-apply-yuva-nidhi-scheme-karnataka
           </a>
         </div>
@@ -238,10 +247,8 @@ const page = () => {
       <div className="bg-[#F5F7F8]">
         <ul className="p-3 list-disc sm:text-xl">
           <li>Aadhaar card</li>
-          <li>Bank account details</li>
           <li>Residence Proof/ Domicile of Karnataka.</li>
-          <li>Income certificate</li>
-          <li>Educational qualification documents</li>
+          <li>Educational qualification from NAD Database</li>
           <li>Mobile Number.</li>
         </ul>
       </div>
@@ -257,69 +264,113 @@ const page = () => {
           className="text-black paragraph-regular 
        text-[18px] sm:text-xl leading-normal sm:leading-10 mt-5 mb-5"
         >
-          <strong>1. Eligibility Check: </strong> Educated but unemployed youth
-          residing in Karnataka can access unemployment benefits by completing
-          the Online Application Form for the Yuva Nidhi Scheme.
+          <strong>1. Visit the Official Online portel: </strong>
+          <span className="text-blue-600 cursor-pointer underline-offset-2">
+            <a
+              href="https://sevasindhuservices.karnataka.gov.in"
+              target="_blank"
+            >
+              sevasindhuservices.karnataka.gov.in
+            </a>
+          </span>
         </p>
 
-        <p
-          className="text-black paragraph-regular 
-       text-[18px] sm:text-xl leading-normal sm:leading-10 mt-7 mb-7"
-        >
-          <strong>2. Access the Form:</strong> The Online Application Form for
-          the Karnataka Nidhi Scheme is accessible through the Seva Sindhu
-          Portal, administered by the Government of Karnataka.
-        </p>
-
-        <p
-          className="text-black paragraph-regular 
-       text-[18px] sm:text-xl leading-normal sm:leading-10 mt-7 mb-7"
-        >
-          <strong>3. Registration:</strong> Unemployed youth must begin by
-          registering themselves on the portal.
-        </p>
-
-        <p
-          className="text-black paragraph-regular 
-       text-[18px] sm:text-xl leading-normal sm:leading-10 mt-7 mb-7"
-        >
-          <strong>4. Aadhar Card Requirement: </strong>It’s crucial to have an
-          Aadhar Card for Unemployment Allowance Registration.
-        </p>
-
-        <p
-          className="text-black paragraph-regular 
-       text-[18px] sm:text-xl leading-normal sm:leading-10 mt-7 mb-7"
-        >
-          <strong>5. Login:</strong> Once registered, log in to the portal using
-          your credentials.
-        </p>
-
-        <p
-          className="text-black paragraph-regular 
-       text-[18px] sm:text-xl leading-normal sm:leading-10 mt-7 mb-7"
-        >
-          <strong>6. Step-by-Step Details:</strong> Fill in the necessary
-          information step by step, which includes:
-        </p>
-
-        <div className="ml-12 text-[14px] sm:text-xl">
-          <ul className="list-disc">
-            <li>Personal Details</li>
-            <li>Contact Details</li>
-            <li>Educational Qualification Details</li>
-            <li>Bank Account Details</li>
-          </ul>
+        <div className="m-10">
+          <img src="/yuva-nidhi-scheme-1.webp" alt="logo" width="600px" className="block m-auto border border-spacing-2 border-stone-950" />
         </div>
 
         <p
           className="text-black paragraph-regular 
        text-[18px] sm:text-xl leading-normal sm:leading-10 mt-7 mb-7"
         >
-          <strong>7. Aadhaar-Bank Account Linkage:</strong> To avail of this
-          scheme, applicants must ensure that their Aadhaar is linked to their
-          bank account.
+          <strong>2. Login or Create your account:</strong> Login to your account with your mobile no. if you don't have an account just create a new account.
         </p>
+
+        <div className="m-10">
+          <img src="/yuva-nidhi-scheme-2.webp" alt="logo" width="600px" className="block m-auto border border-spacing-2 border-stone-950" />
+        </div>
+
+        <p
+          className="text-black paragraph-regular 
+       text-[18px] sm:text-xl leading-normal sm:leading-10 mt-7 mb-7"
+        >
+          <strong>3. After Login using mobile no and password:</strong> you can see this page. now click on View all available services option on this page.
+        </p>
+
+        <div className="m-10">
+          <img src="/yuva-nidhi-scheme-3.webp" alt="logo" width="600px" className="block m-auto border border-spacing-2 border-stone-950" />
+        </div>
+
+        <p
+          className="text-black paragraph-regular 
+       text-[18px] sm:text-xl leading-normal sm:leading-10 mt-7 mb-7"
+        >
+          <strong>4. Search the Yuva Nidhi Scheme: </strong>in search box type yuva nidhi to find the application link.
+        </p>
+
+        <div className="m-10">
+          <img src="/yuva-nidhi-scheme-46.webp" alt="logo" width="600px" className="block m-auto border border-spacing-2 border-stone-950" />
+        </div>
+        <div className="m-10">
+          <img src="/yuva-nidhi-scheme-45.webp" alt="logo" width="600px" className="block m-auto border border-spacing-2 border-stone-950" />
+        </div>
+
+        <p
+          className="text-black paragraph-regular 
+       text-[18px] sm:text-xl leading-normal sm:leading-10 mt-7 mb-7"
+        >
+          <strong>5. The application process starts from here: </strong> Now you need to Declare that all content is true.
+        </p>
+
+        <div className="m-10">
+          <img src="/yuvanidhi-11.webp" alt="logo" width="600px" className="block m-auto border border-spacing-2 border-stone-950" />
+        </div>
+
+        <p
+          className="text-black paragraph-regular 
+       text-[18px] sm:text-xl leading-normal sm:leading-10 mt-7 mb-7"
+        >
+          <strong>6. Aadhaar Verification:</strong> Before filling out the application you need to verify your Aadhaar by e-KYC Service. 
+        </p>
+
+        <div className="m-10">
+          <img src="/yuvanidhi-12.webp" alt="logo" width="600px" className="block m-auto border border-spacing-2 border-stone-950" />
+        </div>
+
+        <p
+          className="text-black paragraph-regular 
+       text-[18px] sm:text-xl leading-normal sm:leading-10 mt-7 mb-7"
+        >
+          <strong>7. Fill the Details:</strong> Your name, photo, date of birth, and address will be automatically filled. Please ensure that the information is correct and fill in any other details that are not automatically populated. 
+        </p>
+
+        <div className="m-10">
+          <img src="/yuvanidhi-13.webp" alt="logo" width="600px" className="block m-auto border border-spacing-2 border-stone-950" />
+        </div>
+
+        <p
+          className="text-black paragraph-regular 
+       text-[18px] sm:text-xl leading-normal sm:leading-10 mt-7 mb-7"
+        >
+          <strong>8. Fill your Education Details:</strong> select your course, sslc or puc, Board Name and certificate Registertion number.
+        </p>
+
+        <div className="m-10">
+          <img src="/yuvanidhi-14.webp" alt="logo" width="600px" className="block m-auto border border-spacing-2 border-stone-950" />
+        </div>
+
+        <p
+          className="text-black paragraph-regular 
+       text-[18px] sm:text-xl leading-normal sm:leading-10 mt-7 mb-7"
+        >
+          <strong>9. Applicant communication details:</strong> Enter your Mobile number and fill the Additional Details and Submit your application.
+        </p>
+
+        <div className="m-10">
+          <img src="/yuvanidhi-15.webp" alt="logo" width="600px" className="block m-auto border border-spacing-2 border-stone-950" />
+        </div>
+
+
       </div>
 
       <div className="flex-center relative min-h-[60px] mt-14 mb-8 w-full flex-col rounded-md bg-cover bg-center text-center bg-black">
