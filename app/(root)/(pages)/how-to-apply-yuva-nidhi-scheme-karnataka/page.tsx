@@ -80,24 +80,39 @@ const page = () => {
         </ul>
       </div>
 
-
       <div className="bg-[#ffe97d] w-4/5 mx-2 my-2 px-10 py-10">
-      <h2 className="text-[18px] my-4 font-semibold">Latest Update</h2>
-      <hr />
-      <p
-            className="text-[18px] my-4 font-semibold"
+        <h2 className="text-[18px] my-4 font-semibold">Latest Update</h2>
+        <hr />
+        <p className="text-[18px] my-4 font-semibold">
+          <strong> Yuva Nidhi Scheme Registeration: </strong> As promised, the
+          Yuva Nidhi scheme registration portal has opened for Diploma and
+          Degree students to apply on SevaSindhu Portal starting from December
+          26, 2023.
+        </p>
+
+        <div className="bg-[#ff0000] text-white font-bold py-4 px-2 text-center">
+          <a
+            href="https://sevasindhuservices.karnataka.gov.in/"
+            target="_blank"
           >
-            <strong> Yuva Nidhi Scheme Registeration: </strong> As promised, the Yuva Nidhi scheme registration portal has opened for Diploma and Degree students to apply on SevaSindhu Portal starting from December 26, 2023. 
-          </p>
-
-          <div className="bg-[#ff0000] text-white font-bold py-4 px-2 text-center"><a href="https://sevasindhuservices.karnataka.gov.in/" target="_blank">Apply Online</a></div>
-
-
+            Apply Online
+          </a>
+        </div>
       </div>
 
+      {/* Ad will place here */}
+      <div className="flex justify-center">
+        <div className="m-2 mb-10 mt-10 place-items-center">
+          <a
+            href="https://amzn.to/3Hm7CYZ"
+            target="_blank"
+          >
+            <img src="/amazon-ad1.webp" alt="ad" width="600px" />
+          </a>
+        </div>
+      </div>
 
-
-      <div className="my-12 p-2 bg-[#F5F7F8] rounded-sm">
+      <div className="my-1 p-2 bg-[#F5F7F8] rounded-sm">
         <div className="flex-center relative min-h-[60px] mt-8 mb-8 w-full flex-col rounded-md bg-cover bg-center text-center bg-black">
           <h2 className="sm:heading1 heading2 text-center text-white mt-1 mb-1">
             How to Apply for the Yuva Nidhi Scheme Online
@@ -277,6 +292,18 @@ const page = () => {
               className="block m-auto border border-spacing-2 border-stone-950"
             />
           </div>
+        </div>
+      </div>
+
+      {/* Ad will place here */}
+      <div className="flex justify-center">
+        <div className="m-2 mb-10 mt-10 place-items-center">
+          <a
+            href="https://bit.ly/upstoxx500"
+            target="_blank"
+          >
+            <img src="/amazon-ad2.webp" alt="ad" width="600px" />
+          </a>
         </div>
       </div>
     </main>

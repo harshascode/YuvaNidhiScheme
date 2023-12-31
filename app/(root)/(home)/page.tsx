@@ -139,6 +139,18 @@ const page = () => {
         </p>
       </div>
 
+      {/* Ad will place here */}
+      <div>
+        <div className="m-2 mb-10 place-items-center">
+          <a
+            href="https://amzn.to/3Hm7CYZ"
+            target="_blank"
+          >
+            <img src="/amazon-ad1.webp" alt="ad" width="600px" />
+          </a>
+        </div>
+      </div>
+
       <div className="w-full bg-[#F5F7F8]">
         <Table>
           <TableBody>
@@ -276,101 +288,173 @@ const page = () => {
         </p>
 
         <div className="m-10">
-          <img src="/yuva-nidhi-scheme-1.webp" alt="logo" width="600px" className="block m-auto border border-spacing-2 border-stone-950" />
+          <img
+            src="/yuva-nidhi-scheme-1.webp"
+            alt="logo"
+            width="600px"
+            className="block m-auto border border-spacing-2 border-stone-950"
+          />
         </div>
 
         <p
           className="text-black paragraph-regular 
        text-[18px] sm:text-xl leading-normal sm:leading-10 mt-7 mb-7"
         >
-          <strong>2. Login or Create your account:</strong> Login to your account with your mobile no. if you don't have an account just create a new account.
+          <strong>2. Login or Create your account:</strong> Login to your
+          account with your mobile no. if you don't have an account just create
+          a new account.
         </p>
 
         <div className="m-10">
-          <img src="/yuva-nidhi-scheme-2.webp" alt="logo" width="600px" className="block m-auto border border-spacing-2 border-stone-950" />
+          <img
+            src="/yuva-nidhi-scheme-2.webp"
+            alt="logo"
+            width="600px"
+            className="block m-auto border border-spacing-2 border-stone-950"
+          />
         </div>
 
         <p
           className="text-black paragraph-regular 
        text-[18px] sm:text-xl leading-normal sm:leading-10 mt-7 mb-7"
         >
-          <strong>3. After Login using mobile no and password:</strong> you can see this page. now click on View all available services option on this page.
+          <strong>3. After Login using mobile no and password:</strong> you can
+          see this page. now click on View all available services option on this
+          page.
         </p>
 
         <div className="m-10">
-          <img src="/yuva-nidhi-scheme-3.webp" alt="logo" width="600px" className="block m-auto border border-spacing-2 border-stone-950" />
+          <img
+            src="/yuva-nidhi-scheme-3.webp"
+            alt="logo"
+            width="600px"
+            className="block m-auto border border-spacing-2 border-stone-950"
+          />
         </div>
 
         <p
           className="text-black paragraph-regular 
        text-[18px] sm:text-xl leading-normal sm:leading-10 mt-7 mb-7"
         >
-          <strong>4. Search the Yuva Nidhi Scheme: </strong>in search box type yuva nidhi to find the application link.
+          <strong>4. Search the Yuva Nidhi Scheme: </strong>in search box type
+          yuva nidhi to find the application link.
         </p>
 
         <div className="m-10">
-          <img src="/yuva-nidhi-scheme-46.webp" alt="logo" width="600px" className="block m-auto border border-spacing-2 border-stone-950" />
+          <img
+            src="/yuva-nidhi-scheme-46.webp"
+            alt="logo"
+            width="600px"
+            className="block m-auto border border-spacing-2 border-stone-950"
+          />
         </div>
         <div className="m-10">
-          <img src="/yuva-nidhi-scheme-45.webp" alt="logo" width="600px" className="block m-auto border border-spacing-2 border-stone-950" />
+          <img
+            src="/yuva-nidhi-scheme-45.webp"
+            alt="logo"
+            width="600px"
+            className="block m-auto border border-spacing-2 border-stone-950"
+          />
         </div>
 
         <p
           className="text-black paragraph-regular 
        text-[18px] sm:text-xl leading-normal sm:leading-10 mt-7 mb-7"
         >
-          <strong>5. The application process starts from here: </strong> Now you need to Declare that all content is true.
+          <strong>5. The application process starts from here: </strong> Now you
+          need to Declare that all content is true.
         </p>
 
         <div className="m-10">
-          <img src="/yuvanidhi-11.webp" alt="logo" width="600px" className="block m-auto border border-spacing-2 border-stone-950" />
+          <img
+            src="/yuvanidhi-11.webp"
+            alt="logo"
+            width="600px"
+            className="block m-auto border border-spacing-2 border-stone-950"
+          />
         </div>
 
         <p
           className="text-black paragraph-regular 
        text-[18px] sm:text-xl leading-normal sm:leading-10 mt-7 mb-7"
         >
-          <strong>6. Aadhaar Verification:</strong> Before filling out the application you need to verify your Aadhaar by e-KYC Service. 
+          <strong>6. Aadhaar Verification:</strong> Before filling out the
+          application you need to verify your Aadhaar by e-KYC Service.
         </p>
 
         <div className="m-10">
-          <img src="/yuvanidhi-12.webp" alt="logo" width="600px" className="block m-auto border border-spacing-2 border-stone-950" />
+          <img
+            src="/yuvanidhi-12.webp"
+            alt="logo"
+            width="600px"
+            className="block m-auto border border-spacing-2 border-stone-950"
+          />
         </div>
 
         <p
           className="text-black paragraph-regular 
        text-[18px] sm:text-xl leading-normal sm:leading-10 mt-7 mb-7"
         >
-          <strong>7. Fill the Details:</strong> Your name, photo, date of birth, and address will be automatically filled. Please ensure that the information is correct and fill in any other details that are not automatically populated. 
+          <strong>7. Fill the Details:</strong> Your name, photo, date of birth,
+          and address will be automatically filled. Please ensure that the
+          information is correct and fill in any other details that are not
+          automatically populated.
         </p>
 
         <div className="m-10">
-          <img src="/yuvanidhi-13.webp" alt="logo" width="600px" className="block m-auto border border-spacing-2 border-stone-950" />
+          <img
+            src="/yuvanidhi-13.webp"
+            alt="logo"
+            width="600px"
+            className="block m-auto border border-spacing-2 border-stone-950"
+          />
         </div>
 
         <p
           className="text-black paragraph-regular 
        text-[18px] sm:text-xl leading-normal sm:leading-10 mt-7 mb-7"
         >
-          <strong>8. Fill your Education Details:</strong> select your course, sslc or puc, Board Name and certificate Registertion number.
+          <strong>8. Fill your Education Details:</strong> select your course,
+          sslc or puc, Board Name and certificate Registertion number.
         </p>
 
         <div className="m-10">
-          <img src="/yuvanidhi-14.webp" alt="logo" width="600px" className="block m-auto border border-spacing-2 border-stone-950" />
+          <img
+            src="/yuvanidhi-14.webp"
+            alt="logo"
+            width="600px"
+            className="block m-auto border border-spacing-2 border-stone-950"
+          />
         </div>
 
         <p
           className="text-black paragraph-regular 
        text-[18px] sm:text-xl leading-normal sm:leading-10 mt-7 mb-7"
         >
-          <strong>9. Applicant communication details:</strong> Enter your Mobile number and fill the Additional Details and Submit your application.
+          <strong>9. Applicant communication details:</strong> Enter your Mobile
+          number and fill the Additional Details and Submit your application.
         </p>
 
         <div className="m-10">
-          <img src="/yuvanidhi-15.webp" alt="logo" width="600px" className="block m-auto border border-spacing-2 border-stone-950" />
+          <img
+            src="/yuvanidhi-15.webp"
+            alt="logo"
+            width="600px"
+            className="block m-auto border border-spacing-2 border-stone-950"
+          />
         </div>
+      </div>
 
-
+      {/* Ad will place here */}
+      <div>
+        <div className="m-2 mb-10 place-items-center">
+          <a
+            href="https://bit.ly/upstoxx500"
+            target="_blank"
+          >
+            <img src="/amazon-ad2.webp" alt="ad" width="600px" />
+          </a>
+        </div>
       </div>
 
       <div className="flex-center relative min-h-[60px] mt-14 mb-8 w-full flex-col rounded-md bg-cover bg-center text-center bg-black">
