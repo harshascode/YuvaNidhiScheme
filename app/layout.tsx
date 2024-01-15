@@ -1,6 +1,7 @@
 import "./globals.css";
 import type { Metadata } from "next";
 import GoogleAnalytics from "@/components/GoogleAnalytics";
+import Script from "next/script";
 
 export const metadata: Metadata = {
   title: "ಯುವ ನಿಧಿ ಯೋಜನೆ ಕರ್ನಾಟಕ 2023 - Yuva Nidhi Scheme",
@@ -21,6 +22,12 @@ export default function RootLayout({
         {process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS ? (
           <GoogleAnalytics ga_id={process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS} />
         ) : null}
+        <Script
+          id="adsbygoogle-init"
+          strategy="afterInteractive"
+          crossOrigin="anonymous"
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7989909386322234"
+        />
         {children}
       </body>
     </html>
