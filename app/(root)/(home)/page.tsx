@@ -140,7 +140,7 @@ const page = () => {
       </div>
 
       {/* Ad will place here */}
-      <div>
+      {/* <div>
         <div className="m-2 mb-10 place-items-center">
           <a
             href="https://amzn.to/3Hm7CYZ"
@@ -149,7 +149,7 @@ const page = () => {
             <img src="/amazon-ad1.webp" alt="ad" width="600px" />
           </a>
         </div>
-      </div>
+      </div> */}
 
       <div className="w-full bg-[#F5F7F8]">
         <Table>
@@ -446,7 +446,7 @@ const page = () => {
       </div>
 
       {/* Ad will place here */}
-      <div>
+      {/* <div>
         <div className="m-2 mb-10 place-items-center">
           <a
             href="https://bit.ly/upstoxx500"
@@ -455,7 +455,7 @@ const page = () => {
             <img src="/amazon-ad2.webp" alt="ad" width="600px" />
           </a>
         </div>
-      </div>
+      </div> */}
 
       <div className="flex-center relative min-h-[60px] mt-14 mb-8 w-full flex-col rounded-md bg-cover bg-center text-center bg-black">
         <h2 className="sm:heading1 heading2 text-center text-white mt-1 mb-1">

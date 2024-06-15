@@ -4,7 +4,7 @@ import GoogleAnalytics from "@/components/GoogleAnalytics";
 import Script from "next/script";
 
 export const metadata: Metadata = {
-  title: "ಯುವ ನಿಧಿ ಯೋಜನೆ ಕರ್ನಾಟಕ 2023 - Yuva Nidhi Scheme",
+  title: "ಯುವ ನಿಧಿ ಯೋಜನೆ ಕರ್ನಾಟಕ 2024` - Yuva Nidhi Scheme",
   description:
     "The Karnataka Yuva Nidhi Scheme is a promise of the Congress Party. Under this scheme, the government will provide financial aid to the educated, unemployed youth in the state.",
   viewport:
