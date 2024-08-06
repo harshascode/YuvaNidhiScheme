@@ -1,5 +1,6 @@
 import "./globals.css";
 import type { Metadata } from "next";
+import AdsterraScript from "@/components/AdsterraScript";
 import GoogleAnalytics from "@/components/GoogleAnalytics";
 import Script from "next/script";
 
@@ -19,6 +20,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="min-h-screen font-poppins">
+        <AdsterraScript />
         {process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS ? (
           <GoogleAnalytics ga_id={process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS} />
         ) : null}
